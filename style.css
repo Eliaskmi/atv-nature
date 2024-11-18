@@ -42,3 +42,87 @@ section.banner h2{
     width: 45%;
     padding: 20px 30px 20px 30px;
 }
+section.servicos{
+    padding: 3vw 10vw 3vw 10vw;
+}
+section.servicos ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.servicos ul li{
+    width: 25%;
+}
+section.servicos ul li span{
+    font-size: 3rem;
+    color: #3B8686;
+    margin: 0 0 2vw 0;
+}
+section.servicos ul li h2{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 2vw 0;
+}
+section.servicos ul li a{
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 0;
+}
+section.atividade{
+
+    padding: 8vw 10vw 8vw 10vw;
+    background:linear-gradient( rgba(121,189,154,0.2), rgba(121,189,154,0.2)), url(../img/back-numeros.png) no-repeat center center;
+    background-size: cover;
+}
+section.atividade ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section.atividade ul li{
+    width: 25%;
+}
+section.atividade ul li h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+section.possibilidades{
+    display: flex;
+    padding: 8vw 10vw 8vw 10vw;
+    justify-content: space-between;
+}
+section.possibilidades div.esquerda{
+  width: 45%;
+}
+section.possibilidades div.esquerda h2{
+    color: #0B486B;
+    font-size: 2.65rem;
+    margin: 0 0 1.5vw 0;
+}
+section.possibilidades div.esquerda p{
+    color: gray;
+    margin: 0 0 2vw 0;
+}
+section.possibilidades div.esquerda p a{
+    background-color: #0B486B;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 8px 20px 8px;
+}
+footer{
+    padding: 5vw 10vw 5vw 10vw;
+    background-color: #3B8686;
+    display:flex;
+    justify-content: space-between;
+
+}
+footer div.redes ul{
+    display: flex;
+    font-size: 2rem;
+}
+footer div.redes ul li{
+    margin: 0 15px 15px 0;
+}
+footer
